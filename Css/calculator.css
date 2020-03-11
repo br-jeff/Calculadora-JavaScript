@@ -1,0 +1,11 @@
+button{
+    width: 120px;
+    height: 80px;
+    margin: 5px;
+
+}
+
+button.zero{
+    width: 255px;
+    height: 80px;
+margin: 5px;} 
