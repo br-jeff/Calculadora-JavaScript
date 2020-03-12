@@ -8,12 +8,22 @@ button{
 
 }
 
+body{
+    width: 535px; ;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: auto;
+    padding: 4px;
+}
+
+
 button.igual{
     width: 255px;
     height: 80px;
 margin: 5px;} 
 
 input[type=text] {
+    margin-left: 5px;
     border: 1px solid black;
     border-radius: 6px;
     width: 520px;
