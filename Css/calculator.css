@@ -21,12 +21,13 @@ button:hover{
 }
 
 
-body{
+div{
     width: 535px; ;
     border: 1px solid black;
     border-radius:40px;
     margin: auto;
     padding: 10px;
+    background-image: linear-gradient(red, yellow);
 }
 
 
