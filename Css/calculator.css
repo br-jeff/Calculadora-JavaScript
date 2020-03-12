@@ -2,11 +2,23 @@ button{
     width: 120px;
     height: 80px;
     margin: 5px;
-    border: 1px solid black;
+    border: -0,8px solid black;
     border-radius: 20px;
     font-size: 25px;
 
 }
+
+button:hover{
+    background-color:#DF8600;
+    width: 120px;
+    height: 80px;
+    margin: 5px;
+    border: 1px solid #DF8600;
+    border-radius: 20px;
+    font-size: 25px;
+
+}
+
 
 body{
     width: 535px; ;
@@ -23,6 +35,7 @@ button.igual{
 margin: 5px;} 
 
 input[type=text] {
+    font-size: 35px;
     margin-left: 5px;
     border: 1px solid black;
     border-radius: 6px;
