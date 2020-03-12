@@ -11,11 +11,11 @@ button{
 }
 
 button:hover{
-    background-color:#DF8600;
     width: 120px;
     height: 80px;
     margin: 5px;
-    border: 1px solid #DF8600;
+    background-color: #685b49;
+    border: 1px solid 685b49;
     border-radius: 20px;
     font-size: 25px;
 
