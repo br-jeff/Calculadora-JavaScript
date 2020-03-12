@@ -51,13 +51,14 @@ button.especial:hover{
 } 
 
 input[type=text] {
-    font-size: 35px;
+    font-size: 55px;
     margin-left: 5px;
     border: 1px solid black;
     border-radius: 6px;
     background-color: #685b49;
     width: 520px;
-    height: 50px;
+    height: 70px;
+    margin-bottom: 13px;
 }
 
 
