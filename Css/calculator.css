@@ -20,14 +20,22 @@ button:hover{
 
 }
 
+body{
+    background-image: url("../imagens/svg/backgroundgreen.svg");
+    background-size: 500px auto;
+    padding: 45px;
+
+
+}
 
 div{
+    background-image: url("/imagens/svg/background.svg");
+    background-size: 500px auto;
     width: 535px; ;
     border: 1px solid black;
     border-radius:40px;
     margin: auto;
     padding: 10px;
-    background-image: linear-gradient(red, yellow);
 }
 
 
