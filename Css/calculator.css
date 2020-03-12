@@ -3,7 +3,7 @@ button{
     width: 120px;
     height: 80px;
     margin: 5px;
-    background-color: #28231c;
+    background-color: #2b2b2b;
     border: 1px solid black;
     border-radius: 20px;
     font-size: 25px;
@@ -30,9 +30,9 @@ body{
 }
 
 div{
-    background-color: #423a2e;
+    background-color: #161616;
     width: 535px; ;
-    border: 1px solid #6f9b86;
+    border: 1px solid black;
     border-radius:40px;
     margin: auto;
     padding: 10px;
@@ -71,5 +71,5 @@ h1{
    color:#;
    -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #000;
-font-size: 45px; color: #423a2e;
+font-size: 45px; color: #161616;
 }
