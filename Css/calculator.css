@@ -39,10 +39,16 @@ div{
 }
 
 
-button.igual{
+button.duascasa{ 
     width: 255px;
     height: 80px;
-margin: 5px;} 
+    margin: 5px;} 
+
+
+button.especial:hover{ 
+    background-color: orangered;
+
+} 
 
 input[type=text] {
     font-size: 35px;
