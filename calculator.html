@@ -8,33 +8,36 @@
 <body>
     <div>
     <h1> Calculadora JS</h1>
-    <input id="register" type="text"> 
-    <br>
-    <button class="especial" type="button" value=a> (</button>
-    <button class="especial" type="button" value=a> )</button>
-    <button class="especial" type="button" value=a> C</button>
-    <button class="especial" type="button" value=a> <</button>
-    <br>
-    <button type="button" value=1> 1</button>
-    <button type="button" value=2> 2</button>
-    <button type="button" value=3> 3</button>
-    <button class="especial"  type="button" value=+> +</button>
-    <br>
-    <button type="button" value=4> 4</button>
-    <button type="button" value=5> 5</button>
-    <button type="button" value=6> 6</button>
-    <button class="especial"  type="button" value=-> -</button>
-    <br>
-    <button type="button" value=7> 7</button>
-    <button type="button" value=8> 8</button>
-    <button type="button" value=9> 9</button>
-    <button class="especial"  type="button" value= x>x</button>
-    <br>
-    <button type="button" value=0> 0</button>
-    <button class="especial" type="button" value=.> .</button>
-    <button class="especial"  type="button" value=a> =</button>
-    <button class="especial"  type="button" value=*> *</button>
+    <form>
+        <input class="display" id="display" type="text"> 
+        <br>
+        <button class="especial" type="button" value="(" onclick="insert(7)"> (</button>
+        <button class="especial" type="button" value=")" onclick="insert(7)"> )</button>
+        <button class="especial" type="button" value="c" onclick="insert(7)"> C</button>
+        <button class="especial" type="button" value="<" onclick="insert(7)"> <</button>
+        <br>
+        <button type="button" value="1" onclick="insert(1)"> 1</button>
+        <button type="button" value="2" onclick="insert(2)"> 2</button>
+        <button type="button" value="3" onclick="insert(3)"> 3</button>
+        <button class="especial"  type="button" value=+ onclick="insert(7)"> +</button>
+        <br>
+        <button type="button" value="4" onclick="insert(4)"> 4</button>
+        <button type="button" value="5" onclick="insert(5)"> 5</button>
+        <button type="button" value="6" onclick="insert(6)"> 6</button>
+        <button class="especial"  type="button" value="-""> -</button>
+        <br>
+        <button type="button" value="7" onclick="insert(7)" > 7</button>
+        <button type="button" value="8" onclick="insert(8)"> 8</button>
+        <button type="button" value="9" onclick="insert(9)"> 9</button>
+        <button class="especial" type="button" value= "/" onclick="insert(7)" >/</button>
+        <br>
+        <button type="button" value=7 onclick="insert(0)" > 0</button>
+        <button class="especial" type="button" value="."" onclick="insert(7)"> .</button>
+        <button class="especial"  type="button" value="=" onclick="insert(7)"> =</button>
+        <button class="especial"  type="button" value="*" onclick="insert(7)">  *</button>
+        </form>
     </div>
+    <script src="src/code.js"></script> 
 </body>
 
 </html>
